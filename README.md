@@ -5,21 +5,24 @@ Welcome to the CS 5500 Foundations of Software Engineering course materials repo
 
 ## 🍴 Getting Started: Fork This Repository
 
-**You should FORK this repository to your own GitHub account.** This allows you to:
-- Push your work to your own repository
+**Each student should FORK this repository to their own GitHub account.** This allows you to:
+- Collaborate with teammates through pair programming and group learning
+- Push your work to your own repository for progress tracking
 - Pull updates from the main course repository
 - Keep your work safe and version-controlled
-- Submit assignments via your fork
+- Share and compare solutions with teammates
+
+**Note**: While each student maintains their own fork, these lessons are collaborative learning opportunities. Teams are encouraged to pair program, work together, and learn from each other!
 
 ### Initial Setup:
 1. Fork this repository on GitHub
 2. Clone YOUR fork to your local machine:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+   git clone https://github.com/YOUR_USERNAME/MonoRepoLessons.git
    ```
 3. Add the original repository as an upstream remote:
    ```bash
-   git remote add upstream https://github.com/ORIGINAL_REPO_URL.git
+   git remote add upstream https://github.com/5500-2025-foundations-yvr/MonoRepoLessons.git
    ```
 
 ## ⚠️ Important Notice
@@ -95,6 +98,9 @@ Each lesson in this repository is designed to be self-contained with:
 - All necessary starter files
 - Dependencies and setup instructions
 - Expected deliverables
+- Comprehensive guidance for LLM collaboration
+
+**Note**: Some lessons focus on advanced terminal UI development using libraries like **blessed** for creating rich, interactive command-line applications. These lessons emphasize proper software architecture patterns like MVC (Model-View-Controller) and collaborative development with AI tools.
 
 You don't need to complete exercises in any particular order unless explicitly stated in the lesson instructions.
 
@@ -126,11 +132,14 @@ Please reach out during office hours or post on the course discussion forum.
 
 ## 🎯 Best Practices
 
-1. **Sync frequently**: Pull updates from upstream at the beginning of each class
-2. **Copy before you code**: Always copy exercises to your work directory first  
-3. **Commit regularly**: Push your work to your fork frequently to avoid losing progress
-4. **Organize your work**: Keep your `work/lessons/` directory organized and well-documented
-5. **Use meaningful commit messages**: Help yourself and instructors understand your progress
+1. **Collaborate and learn**: Pair program with teammates, share approaches, and learn from each other
+2. **Maintain your own fork**: Each student should have their own repository for progress tracking
+3. **Sync frequently**: Pull updates from upstream at the beginning of each class
+4. **Copy before you code**: Always copy exercises to your work directory first  
+5. **Commit regularly**: Push your work to your fork frequently to avoid losing progress
+6. **Organize your work**: Keep your `work/lessons/` directory organized and well-documented
+7. **Use meaningful commit messages**: Help yourself and instructors understand your progress
+8. **Share solutions**: Compare different approaches with teammates after completing exercises
 
 ### Example Daily Workflow:
 ```bash
